@@ -15,14 +15,6 @@ Description: Default settings for elementary OS
  This package contains various system defaults for elementary OS.
  Installing this package won't affect existing users on your system.
 
-Package: elementary-dpms-helper
-Architecture: all
-Depends: x11-xserver-utils, ${misc:Depends}
-Description: script and settings for X DPMS
- Basic script and GSettings for managing
- X Display Power Management Signaling when
- GNOME Settings Daemon's Power plugin should not.
-
 Package: elementary-live-settings
 Architecture: all
 Depends: elementary-default-settings,
